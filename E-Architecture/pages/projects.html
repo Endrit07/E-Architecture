@@ -1,0 +1,349 @@
+<html>
+    <head>
+        <title>Projects</title>
+      
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <style>
+              @import url("http://fonts.googleapis.com/css?family=Oswald:400,300,700");
+         body{
+        font-family: 'Oswald', sans-serif !important;
+         }
+           img{
+            object-fit: cover;
+          } 
+          .background{
+            background-color: black;
+            
+          }
+          .card:hover{
+            transform: scale(1.10);
+
+          } 
+         
+          .fa {
+          padding: 20px;
+          font-size: 40px;
+          width: 50px;
+          text-align: center;
+          text-decoration: none;
+          }
+          
+        </style>
+    </head>
+    <body class="bg-dark">
+         <!--Fillimi i Navbar-->
+         <nav class="navbar navbar-expand-lg navbar-dark bg-dark  ">
+            <div class="container-fluid ">
+              <a class="navbar-brand" href="home.html"> ARCHITECTURE</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link " aria-current="page" href="home.html">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" href="projects.html">Projects</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="service.php">Service</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link " href="aboutus.html">About us</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true"></a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="contact.php">Contact</a>
+                  </li> 
+                </ul>
+                
+              </div>
+              <div class="collapse navbar-collapse d-flex justify-content-end " id="navbarNav">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link text-primary " aria-current="page" href="login.html" >Log-in</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-primary" href="signup.html">Sign-up</a>
+                  </li>
+
+              </div>
+            </div>
+          </nav>
+                  <!--Mbarimi i Navbar--> 
+                    <!--Fillimi i carousel-->
+        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="../images/carousel11.jpg" class="d-block w-100" alt="..."height="500px">
+                <div class="carousel-caption d-none d-md-block">
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="../images/carousel2.jpg" class="d-block w-100" alt="..." height="500px">
+                <div class="carousel-caption d-none d-md-block">
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="../images/carousel3.jpg" class="d-block w-100" alt="..." height="500px">
+                <div class="carousel-caption d-none d-md-block">
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+          
+          <!--Mbarimi icarousel--> 
+
+          <!--Fillimi i text-->
+          <h1 class="text-center text-light mt-5">Welcome To Our Team Projects</h1> 
+          <h4 class="text-center text-light">"The mother art is architecture. Without an architecture of our own we have no soul of our own civilization." - Frank Lloyd Wright</h4>
+
+          <!-- Fillimi  i select -->
+            <div class="container">
+              <div class="row m-4">
+                <div class="col-md-6 col-sm-12">
+                  <select class="form-select" aria-label="Default select example">
+                    <option selected>Houses</option>
+                    <option value="1">Residence</option>
+                    <option value="2"> Villa</option>
+                    <option value="3">Commercial Space</option>
+                    <option value="4">School</option>
+                    <option value="5">Hospital</option>
+                    <option value="6">Shopping center</option>
+                  </select>
+                </div>
+                <div class="col-md-6 col-sm-12">
+                  <select class="form-select" aria-label="Default select example">
+                    <option selected>All States</option>
+                    <option value="1">Kosovo</option>
+                    <option value="2">Albania</option>
+                    <option value="3">Macedonia</option>
+                    <option value="1">Italy</option>
+                    <option value="2">Swiss</option>
+                    <option value="3">Belgium</option>
+                    <option value="1">Austri</option>
+                    <option value="2">Germany</option>
+                    <option value="3">Sloveni</option>
+                  </select>
+                </div>
+              </div>
+            </div>
+          <!-- Mbarimi i select -->
+          <!-- Fillim i projekteve-->
+          <div class=" container mt-5">
+          <h3 class="text-light ">COMPANY WORK</h3>
+        </div>
+
+
+            <div class="container bg-secondary  mt-3  p-5">
+                <div class="row no-gutters "> 
+                      
+                      <div class="col-md-4 p-2">
+                        <img src="../images/work1.jpg" alt="" width="400px"height="300px">
+                      </div>
+                      <div class="col-md-4 p-2">
+                        <img src="../images/work2.jpg" alt=""width="400px" height="300px">
+                      </div>
+                      <div class="col-md-4 p-2">
+                        <img src="../images/work3.jpg" alt=""width="400px"height="300px">
+                      </div>
+                      <div class="col-md-4 p-2">
+                        <img src="../images/work4.jpg" alt=""width="400px"height="300px">
+                      </div>
+                      <div class="col-md-4 p-2">
+                        <img src="../images/work5.jpg" alt=""width="400px"height="300px">
+                      </div>
+                      <div class="col-md-4 p-2">
+                        <img src="../images/work6.jpg" alt=""width="400px"height="300px">
+                      </div>
+                </div>
+            </div>
+          <!--Mbarimi i projekteve -->
+          <div class="container  mt-5">
+            <h3 class="text-light ">OUR PARTNERS</h3>
+          </div>
+             <!--Fillimi i cardave-->
+          <div class="container bg-secondary p-5 ">
+            <div class="row">
+
+                <!-- Fillimi i card1 -->
+                <div class="col-md-4">
+                    <div class="card mt-3" >
+                        <div class="row g-0">
+                          <div class="col-md-4">
+                            <img src="../images/r1.jpg" class="img-fluid rounded-start" alt="...">
+                          </div>
+                          <div class="col-md-8">
+                            <div class="card-body">
+                              <h5 class="card-title">Saverra Real Estate</h5>
+                              <p class="card-text">Saverra Real Estate is a well-known agency in the European real estate market, offering specialized services for buying and selling properties in various destinations and design of real estate assets.</p>                         
+                            </div>
+                          </div>
+                        </div>
+                      </div>                   
+                </div>
+                <!-- Mbarimi i card1 -->
+
+                <!--Fillimi i card2  -->
+                <div class="col-md-4">
+                    <div class="card mt-3" >
+                        <div class="row g-0">
+                          <div class="col-md-4">
+                            <img src="../images/r2.jpg" class="img-fluid rounded-start" alt="...">
+                          </div>
+                          <div class="col-md-8">
+                            <div class="card-body">
+                              <h5 class="card-title">European Real Estate</h5>
+                              <p class="card-text">European Real Estate is a prominent agency operating in the real estate market across Europe, providing comprehensive services for property transactions and investments. With a deep understanding of the European.</p>                           
+                            </div>
+                          </div>
+                        </div>
+                      </div>                  
+                </div>
+                <!-- Mbarimi i card2 -->
+
+                <!-- Fillimi i card3 -->
+                <div class="col-md-4">
+                    <div class="card mt-3" >
+                        <div class="row g-0">
+                          <div class="col-md-4">
+                            <img src="../images/r3.jpg" class="img-fluid rounded-start" alt="...">
+                          </div>
+                          <div class="col-md-8">
+                            <div class="card-body">
+                              <h5 class="card-title">Constractor Real Estate</h5>
+                              <p class="card-text">Constractor Real Estate is a specialized agency in constructing various real estate properties across Europe, providing comprehensive services in the fields of construction and design of real estate assets.</p>
+                         
+                            </div>
+                          </div>
+                        </div>
+                      </div>                   
+                </div>
+                <!-- Mbarimi i card3 -->
+
+                <!-- Fillimi i card4 -->
+                <div class="col-md-4">
+                    <div class="card mt-3" style="max-width: 540px;">
+                        <div class="row g-0">
+                          <div class="col-md-4">
+                            <img src="../images/r4.jpg" class="img-fluid rounded-start" alt="...">
+                          </div>
+                          <div class="col-md-8">
+                            <div class="card-body">
+                              <h5 class="card-title">Triad Real Estate</h5>
+                              <p class="card-text">Triad Real Estate is a prestigious agency in the European real estate market, specializing in property management services, rental offerings, and development of real estate projects.</p>                         
+                            </div>
+                          </div>
+                        </div>
+                      </div>      
+                </div>
+                <!-- Mbarimi i card4 -->
+
+                <!--Fillimi i card5  -->
+                <div class="col-md-4">
+                    <div class="card mt-3" style="max-width: 540px;">
+                        <div class="row g-0">
+                          <div class="col-md-4">
+                            <img src="../images/r5.jpg" class="img-fluid rounded-start" alt="...">
+                          </div>
+                          <div class="col-md-8">
+                            <div class="card-body">
+                              <h5 class="card-title">Architecture Real Estate</h5>
+                              <p class="card-text">Architecture Real Estate is a renowned agency that offers specialized services in the design and development of real estate properties in Europe, aiming to create beautiful and functional spaces for their clients.</p>                       
+                           </div>
+                          </div>
+                        </div>
+                      </div>      
+                </div>
+                <!-- Mbarimi i card5 -->
+
+                <!--Fillimi i card6-->
+                <div class="col-md-4">
+                    <div class="card mt-3" style="max-width: 540px;">
+                        <div class="row g-0">
+                          <div class="col-md-4">
+                            <img src="../images/r6.jpg" class="img-fluid rounded-start" alt="...">
+                          </div>
+                          <div class="col-md-8">
+                            <div class="card-body">
+                              <h5 class="card-title">Building Real Estate</h5>
+                              <p class="card-text">Building Real Estate is a well-established agency in the European real estate market, specializing in the purchase, sale, construction of new buildings, and improvement of existing properties in preferred areas.</p>                        
+                            </div>
+                          </div>
+                        </div>
+                      </div>                   
+                </div>
+                 <!--Mbarimi i card6-->
+            </div>
+          </div>
+          </div>
+          <!--Mbarimi i cardave-->
+
+
+      <!--Fillimi Footer-->
+      <div  class="container-fluid d-flex justify-content-between background mt-5 text-light "> 
+        <!--  FILLIMI Our company -->
+        <div > 
+          <h1 class="pt-5 ps-5 ">ARCHITECTURE</h1>
+          <h4>The most famous architects in tower</h4>
+        </div>
+        <!-- MBARIMI OUR COMPANY -->
+
+        <!-- fillimi contact formes-->
+        <div >
+          <h5 class="pt-3 pb-4 ">Email to:</h5>
+          <div class="mb-3">
+            <label for="exampleFormControlInput1" class="form-label">Send email to:</label>
+            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+          </div>
+          <div class="mb-3">
+            <label for="exampleFormControlTextarea1" class="form-label" ></label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Compose email"></textarea>
+          </div>
+          <button type="button" class="btn btn-outline-primary ms-4 ps-5 pe-5 mb-5">Send</button>
+        </div>
+        <!-- mbarimi contact forma -->
+
+        <!-- fillimi formave te contact-->
+        <div>
+          <h5 class="pt-3 pb-4 col-sm-12">Architects emails:</h5>
+          <p class="">1.endritduraku82@gmail.com</p>
+          <p> 2. perparimrama@gmail.com</p>
+          <p> 3. oliviastefan@gmail.com</p>
+          <p> 4. stefanantoni@gmail.com</p>
+        </div>
+        <!-- mbarimi i formave te contact-->
+        
+        <!-- fillimi i follow -->
+        <div >
+          <h5 class="pt-3 ms-5 col-sm-12">Follow us</h5> 
+          <div class="me-5">
+          <a href="https://www.facebook.com" class="fa fa-facebook" ></a>
+          <a href="https://www.instagram.com" class="fa fa-instagram "></a>
+          <a href="https://www.twitter.com" class="fa fa-twitter "></a>
+        </div>
+        </div>
+        <!-- mbarimi i follow -->
+      </div> 
+      <p class= "text-center text-light"> Copyright &copy; 2023 All right Reserved | Architecture </p>
+      <!--Mbarimi Footer-->
+    </body>
+</html> 
